@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiwinService.Task.Sample
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiwinService.Core", "MultiwinService.Core\MultiwinService.Core.csproj", "{D12A10BC-40E3-47C7-BAAA-390F6277F933}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiwinService.Web", "MultiwinService.Web\MultiwinService.Web.csproj", "{61187E13-45D4-4197-AEEA-191044CA88B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{D12A10BC-40E3-47C7-BAAA-390F6277F933}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D12A10BC-40E3-47C7-BAAA-390F6277F933}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D12A10BC-40E3-47C7-BAAA-390F6277F933}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61187E13-45D4-4197-AEEA-191044CA88B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61187E13-45D4-4197-AEEA-191044CA88B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61187E13-45D4-4197-AEEA-191044CA88B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61187E13-45D4-4197-AEEA-191044CA88B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

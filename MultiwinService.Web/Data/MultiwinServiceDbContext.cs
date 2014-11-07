@@ -1,6 +1,6 @@
 ﻿using System.Data.Entity;
 
-namespace MultiwinService.Core.Data
+namespace MultiwinService.Web.Data
 {
     public class MultiwinServiceDbContext : DbContext
     {
@@ -9,7 +9,7 @@ namespace MultiwinService.Core.Data
 
         public MultiwinServiceDbContext()
         {
-            //Database.SetInitializer<MultiwinServiceDbContext>(null);
+            Database.SetInitializer<MultiwinServiceDbContext>(null);
         }
     }
 }

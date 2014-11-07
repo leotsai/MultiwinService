@@ -7,7 +7,7 @@ namespace MultiwinService.Core.Services
     {
         public void LogError(Guid? taskId, string name, string description)
         {
-            Log(taskId, name, description, ServiceLogLevel.Error);
+            Log(taskId, name, description, ServiceLogLevel.UnknownError);
         }
 
         public void LogServiceStarted()
@@ -37,10 +37,10 @@ namespace MultiwinService.Core.Services
 
         public void LogTaskNotStoppedButDllUpdated(string dllPath)
         {
-            Log(null, "DLL错误", dllPath + "-任务没有停止，但是DLL却更新了。更新的DLL不会执行。请先停止该任务，再重新启动该任务，新的DLL中的任务将会生效。", ServiceLogLevel.Error);
+            Log(null, "DLL错误", dllPath + "-任务没有停止，但是DLL却更新了。更新的DLL不会执行。请先停止该任务，再重新启动该任务，新的DLL中的任务将会生效。", ServiceLogLevel.UnknownError);
         }
 
-        private void Log(Guid? taskId, string name, string description, ServiceLogLevel level)
+        public void Log(Guid? taskId, string name, string description, ServiceLogLevel level)
         {
             try
             {

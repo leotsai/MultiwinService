@@ -1,4 +1,5 @@
 ﻿using System;
+using MultiwinService.Core.Data;
 
 namespace MultiwinService.Core.Services
 {
@@ -11,5 +12,6 @@ namespace MultiwinService.Core.Services
         void LogTaskStopped(Guid taskId);
         void LogTaskWorkCompleted(Guid taskId, string version);
         void LogTaskNotStoppedButDllUpdated(string dllPath);
+        void Log(Guid? taskId, string name, string description, ServiceLogLevel level);
     }
 }

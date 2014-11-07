@@ -1,4 +1,4 @@
-﻿namespace MultiwinService.Core.Data
+﻿namespace MultiwinService.Web.Data
 {
     public enum ServiceLogLevel
     {
