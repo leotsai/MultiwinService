@@ -43,9 +43,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\MultiwinService.Tasks\MultiwinService.Tasks.csproj">
-      <Project>{09DEDF8A-C61C-40FC-8161-FFF099DE1777}</Project>
-      <Name>MultiwinService.Tasks</Name>
+    <ProjectReference Include="..\..\MultiwinService.Core\MultiwinService.Core.csproj">
+      <Project>{d12a10bc-40e3-47c7-baaa-390f6277f933}</Project>
+      <Name>MultiwinService.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

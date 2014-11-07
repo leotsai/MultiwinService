@@ -1,7 +1,6 @@
 ﻿using System.ServiceProcess;
-using MultiwinService.DbServices;
-using MultiwinService.Infrastructure;
-using MultiwinService.Tasks;
+using MultiwinService.Core;
+using MultiwinService.Core.Services;
 
 namespace MultiwinService.Main
 {
@@ -16,12 +15,12 @@ namespace MultiwinService.Main
         {
             var log = Ioc.Get<ILogService>();
             log.LogServiceStarted();
-            TaskManager.Run();
+            TaskManager.Instance.Run();
         }
 
         protected override void OnStop()
         {
-            TaskManager.Dispose();
+            TaskManager.Instance.Dispose();
             var log = Ioc.Get<ILogService>();
             log.LogServiceStopped();
         }

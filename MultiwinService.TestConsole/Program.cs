@@ -1,16 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Security.Policy;
-using System.Text;
-using System.Threading.Tasks;
-using MultiwinService.DbServices;
-using MultiwinService.DbServices.Implementations;
-using MultiwinService.Domain.Context;
-using MultiwinService.Infrastructure;
-using MultiwinService.Tasks;
 
 namespace MultiwinService.TestConsole
 {

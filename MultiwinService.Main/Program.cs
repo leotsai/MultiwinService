@@ -1,7 +1,6 @@
 ﻿using System.ServiceProcess;
-using MultiwinService.DbServices;
-using MultiwinService.DbServices.Implementations;
-using MultiwinService.Infrastructure;
+using MultiwinService.Core;
+using MultiwinService.Core.Services;
 
 namespace MultiwinService.Main
 {

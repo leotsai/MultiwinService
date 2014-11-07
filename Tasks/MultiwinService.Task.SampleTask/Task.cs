@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using MultiwinService.Tasks;
+using MultiwinService.Core;
 
 namespace MultiwinService.Task.SampleTask
 {

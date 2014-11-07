@@ -39,7 +39,7 @@
             // 
             // mainServiceInstaller
             // 
-            this.mainServiceInstaller.ServiceName = "Zdit Miaozhuan MainService";
+            this.mainServiceInstaller.ServiceName = "Multiwin Service";
             // 
             // ProjectInstaller
             // 

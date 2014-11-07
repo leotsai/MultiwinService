@@ -31,7 +31,7 @@
             // 
             // MainService
             // 
-            this.ServiceName = "Zdit Miaozhuan Service";
+            this.ServiceName = "Multiwin Service";
 
         }
 

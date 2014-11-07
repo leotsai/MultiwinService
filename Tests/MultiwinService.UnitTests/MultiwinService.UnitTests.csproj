@@ -61,25 +61,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\MultiwinService.DbServices\MultiwinService.DbServices.csproj">
-      <Project>{66e941d7-5c96-4492-8e03-779d299d770f}</Project>
-      <Name>MultiwinService.DbServices</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\MultiwinService.Domain\MultiwinService.Domain.csproj">
-      <Project>{26308aa3-8c36-42c1-a78b-aa728f28630f}</Project>
-      <Name>MultiwinService.Domain</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\MultiwinService.Infrastructure\MultiwinService.Infrastructure.csproj">
-      <Project>{a294ee37-9de6-4b35-bf65-47aabf57f49f}</Project>
-      <Name>MultiwinService.Infrastructure</Name>
+    <ProjectReference Include="..\..\MultiwinService.Core\MultiwinService.Core.csproj">
+      <Project>{d12a10bc-40e3-47c7-baaa-390f6277f933}</Project>
+      <Name>MultiwinService.Core</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\MultiwinService.Main\MultiwinService.Main.csproj">
       <Project>{6dbdd237-69c6-4b6a-b894-784fd895bf3d}</Project>
       <Name>MultiwinService.Main</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\MultiwinService.Tasks\MultiwinService.Tasks.csproj">
-      <Project>{09dedf8a-c61c-40fc-8161-fff099de1777}</Project>
-      <Name>MultiwinService.Tasks</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\MultiwinService.TestConsole\MultiwinService.TestConsole.csproj">
       <Project>{1d4d3213-f431-465d-95af-68d64f884831}</Project>
